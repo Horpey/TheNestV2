@@ -58,13 +58,45 @@ input {
 .navbar-brand img {
   height: 50px !important;
 }
-.navbar-nav .nav-link .nav-link-inner--text {
+.navbar-nav .nav-link .nav-link-inner--text,
+.navbar-nav .nav-link:not(.btn) {
   color: black;
 }
 .headertit {
-  font-size: 80px;
-  line-height: 76px;
+  font-size: 90px;
+  line-height: 90px;
 }
 p {
   color: black;
+}
+.headerbgg {
+  background-image: url(../img/nest/headerbg.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: 110% 100%;
+}
+.btn-site-pri {
+  font-size: 16px;
+  text-transform: capitalize !important;
+  background: #f58634 !important;
+  border: #f58634 !important;
+  padding: 20px 46px !important;
+  box-shadow: 0px 0px !important;
+}
+.btn-site-outl {
+  font-size: 16px;
+  text-transform: capitalize !important;
+  border-color: #f58634 !important;
+  color: #f58634 !important;
+  padding: 20px 46px !important;
+  box-shadow: 0px 0px !important;
+}
+.btn-site-outl:hover {
+  background: #f58634 !important;
+  color: white !important;
+}
+@media (min-width: 768px) {
+  .section-hero {
+    min-height: 100vh !important;
+  }
 }
