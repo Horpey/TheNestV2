@@ -83,6 +83,12 @@ p {
   padding: 20px 46px !important;
   box-shadow: 0px 0px !important;
 }
+.bg-theme {
+  background: #f58634 !important;
+}
+.text-col {
+  color: #f58634 !important;
+}
 .btn-site-outl {
   font-size: 16px;
   text-transform: capitalize !important;
@@ -95,8 +101,45 @@ p {
   background: #f58634 !important;
   color: white !important;
 }
+.bg-themelight {
+  background: #fff7f1 !important;
+}
+.footer .nav .nav-item .nav-link,
+.text-black {
+  color: black !important;
+}
+.text-right-md {
+  text-align: right;
+}
 @media (min-width: 768px) {
   .section-hero {
     min-height: 100vh !important;
+  }
+}
+.justify-content-md {
+  justify-content: flex-end;
+}
+@media (max-width: 768px) {
+  .headertit {
+    font-size: 61px;
+    line-height: 56px;
+  }
+  .ptsm-0 {
+    padding-top: 0px !important;
+  }
+  .hidesm {
+    display: none;
+  }
+  .headerbgg {
+    background-image: none;
+  }
+  .mt-2-sm {
+    margin-top: 10px;
+  }
+  .text-left-sm {
+    text-align: left !important;
+  }
+  .jsstart-sm {
+    justify-content: start !important;
   }
 }
