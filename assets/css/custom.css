@@ -119,6 +119,11 @@ p {
 .justify-content-md {
   justify-content: flex-end;
 }
+
+.navbar-nav .nav-link.active .nav-link-inner--text {
+  color: #f58634 !important;
+}
+
 @media (max-width: 768px) {
   .headertit {
     font-size: 61px;
