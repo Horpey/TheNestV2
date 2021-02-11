@@ -148,3 +148,31 @@ p {
     justify-content: start !important;
   }
 }
+
+.tagslist span {
+  background-color: #fff;
+  background-color: rgba(0, 0, 0, 0);
+  color: #1e0a3c;
+  color: #1e0a3c;
+  border-color: #dbdae3;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 30px;
+  text-transform: capitalize;
+  padding: 9px 20px;
+  margin-right: 10px;
+  line-height: 3.5;
+}
+
+.list-unstyled-icons li {
+  padding-left: 25px;
+  margin-bottom: 20px;
+}
+.list-unstyled-icons .inline-icon {
+  float: left;
+  margin-left: -26px;
+}
+
+.text-col {
+  color: #f58e43;
+}
