@@ -193,6 +193,25 @@ p {
 .text-align-justify {
   text-align: justify;
 }
+.businesseslogo {
+  overflow: hidden;
+  height: 400px;
+}
+.business-grid-child {
+  animation: scrollUp 15s linear infinite;
+}
+.businesslogo-box {
+  border-radius: 3px;
+  flex-basis: calc(33.33333% - 20px);
+  flex-grow: 0;
+  flex-shrink: 0;
+  height: 70px;
+  justify-content: center;
+  align-items: center;
+  margin: 0 0 30px;
+  padding: 0 25px;
+}
+
 .hvr-sweep-to-right {
   display: inline-block;
   border-radius: 4px;
@@ -237,6 +256,15 @@ p {
 .hvr-sweep-to-right:hover:before {
   -webkit-transform: scaleX(1);
   transform: scaleX(1);
+}
+
+@keyframes scrollUp {
+  0% {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(-100%);
+  }
 }
 @media (max-width: 500px) {
   .gal {
